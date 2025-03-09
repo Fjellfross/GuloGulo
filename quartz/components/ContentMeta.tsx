@@ -1,4 +1,4 @@
-import { Date, getDate } from "./Date"
+import { Date, getDate, getDateCreated, getDateModified } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
@@ -24,15 +24,22 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    /// Hide metadata on homepage
+    if (fileData.slug === "index") {
+      return <></>
+    }
+    
+    
     const text = fileData.text
+    
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
+        segments.push(<Date date={getDateCreated(cfg, fileData)!} locale={cfg.locale} />)
+        segments.push(<Date date={getDateModified(cfg, fileData)!} locale={cfg.locale}/>)
       }
-
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
@@ -44,7 +51,9 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       return (
         <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segments}
+        <span className="content-meta">Date planted: {segments[0]} </span>
+        <span className="content-meta">Date tended: {segments[1]} </span>
+        <span className="content-meta">{segments[2]} </span>
         </p>
       )
     } else {

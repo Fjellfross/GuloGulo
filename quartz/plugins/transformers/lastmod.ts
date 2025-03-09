@@ -43,33 +43,11 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
             const fp = file.data.filePath!
             const fullFp = path.isAbsolute(fp) ? fp : path.posix.join(file.cwd, fp)
             for (const source of opts.priority) {
-              if (source === "filesystem") {
-                const st = await fs.promises.stat(fullFp)
-                created ||= st.birthtimeMs
-                modified ||= st.mtimeMs
-              } else if (source === "frontmatter" && file.data.frontmatter) {
-                created ||= file.data.frontmatter.created as MaybeDate
-                modified ||= file.data.frontmatter.modified as MaybeDate
+              if (source === "frontmatter" && file.data.frontmatter) {
+                created ||= file.data.frontmatter["date created"] as MaybeDate
+                modified ||= file.data.frontmatter["date modified"] as MaybeDate
                 published ||= file.data.frontmatter.published as MaybeDate
-              } else if (source === "git") {
-                if (!repo) {
-                  // Get a reference to the main git repo.
-                  // It's either the same as the workdir,
-                  // or 1+ level higher in case of a submodule/subtree setup
-                  repo = Repository.discover(file.cwd)
-                }
-
-                try {
-                  modified ||= await repo.getFileLatestModifiedDateAsync(file.data.filePath!)
-                } catch {
-                  console.log(
-                    chalk.yellow(
-                      `\nWarning: ${file.data
-                        .filePath!} isn't yet tracked by git, last modification date is not available for this file`,
-                    ),
-                  )
-                }
-              }
+              } 
             }
 
             file.data.dates = {
