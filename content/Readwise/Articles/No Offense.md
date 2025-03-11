@@ -1,0 +1,28 @@
+---
+tags: [articles]
+date created: 2025-03-10
+date modified: 2025-03-10
+---
+# No Offense
+
+![rw-book-cover](https://img.pastemagazine.com/wp-content/juploads/2024/01/hqspalsisshutvwlp1bg.jpg)
+
+## Metadata
+- Author: [[Jia Tolentino]]
+- Full Title: No Offense
+- Category: #articles
+- Summary: Editing a feminist website can be challenging when the expectation is to always be offended. Many articles aim to provoke outrage, but this can create a disconnect between true feminist values and how they are perceived online. Ultimately, feminism should focus on awareness and inclusivity, rather than just generating offense.
+- URL: https://www.jezebel.com/no-offense-1749221642
+
+## Highlights
+- It felt like something adjacent to satisfaction to live up to that expectation for once. And it worked; people got mad; other websites picked the story up. The factory processed my offense forward to the final step, and then, as usually happens, it went nowhere. The rape-your-face guy did not, as far as I know, come to the understanding that his shirt was horrible. Presumably, his already considerable sense of alienation from and aggression towards women got deeper. For sure, his friends photoshopped dicks on my face and tweeted them at me for a week. ([View Highlight](https://read.readwise.io/read/01jp15jkjzy3khshmz48d7k27p))
+- As a formula, it relies on offense being viewed as politically valuable, a tool that will unite people with similar interests and make them do something other than type, complain, and type. ([View Highlight](https://read.readwise.io/read/01jp15k7mqwckang6dzfbkx7kx))
+- Feminism is proliferating essentially as merchandise; we can buy anything that suits us and nothing that we really need. ([View Highlight](https://read.readwise.io/read/01jp15m7s0dgsh0ahqyrasweed))
+- the obvious conclusion from everything that is annoying on the internet is that the stakes of representation should be much, much lower. But we are trudging through these wild storms of approval and disapprobation on a failing hunt for consensus; we are worshiping and trying to locate a mirage. ([View Highlight](https://read.readwise.io/read/01jp15vxvbs31fbdbbgznrc86d))
+- o is “we’re going to be better than the bad feminists by being inclusive of all feminists, except whoever does not fit our definition of what a good feminist is.”
+  This line of thinking is too complicated to be useful or even regularly put to use in the real world, where feminism often seems much simpler: a matter of being aware of inequities, of accounting for them, of letting people be. But on the internet, the idea that feminism requires careful, crowd-conscious positioning is dominant. ([View Highlight](https://read.readwise.io/read/01jp160qz0cqq3rxzpam50ydj1))
+- Fervent support for a political position does not automatically translate into any meaningful gains. The failure of the feminist offense factory to result in much else other than better TV and extremely woke 12-year-olds should be sufficient proof of that. ([View Highlight](https://read.readwise.io/read/01jp162bwvb7s0gp1ybvpmd661))
+- Contemporary life means being hyper-aware and worse off than ever; we are increasingly shut out of the mechanisms of representational democracy and simultaneously being forced to know more and more and more. We know many rape kits are backlogged in all the big cities, how many black teenagers have been shot by the police this year, how shamelessly the NRA pulls its levers, how corporate campaign finance ensures that the wealth gap is here to stay. And we can’t change any of it—or at the very least, not very easily, not when it’s so much easier to sit around and get very precisely insightful online. ([View Highlight](https://read.readwise.io/read/01jp162z5wzed7vnrjwdkgvaqw))
+- And so we come to imagine that the problem is one of marketability. We center feminism around palatability, inspiration—female-dictated obligations descended directly from male-dictated obligations that women play nice and look lovely and agree. ([View Highlight](https://read.readwise.io/read/01jp166c0vx4bwzedd7hz54k1v))
+- Decidedly unhelpful in this dilemma is the fact that the internet visually flattens the peaks and valleys of importance; the platforms we use every day make all ideas look more or less the same. A tweet about something you care about deeply is the same size as a tweet about something you’ll never think about again; engagement shoots on Facebook sit next to death announcements, vacation photos, self-promotion, obvious cries for help; a joke post on this site takes up the same amount of space as a meaningful piece of reporting, and it’s all swept away every day. ([View Highlight](https://read.readwise.io/read/01jp1696as0516f2yxww2xw6ev))
+- This has been one of the most casually alarming things about working at Jezebel: tracking the idea that period stain photos should be allowed on Instagram not because they’re unremarkable but because they are [beautiful](https://jezebel.com/your-beautiful-feminine-period-stains-are-against-inst-1694044070); the idea that we shouldn’t report on a much-lauded entrepreneur’s questionable [business practices](https://jezebel.com/is-shop-jeens-viral-success-story-all-window-dressing-1727991874) in the interest of [protecting](https://twitter.com/audreygelman/status/639515844184272896) and “building up” young women; the idea that if women appear on a rude yet accurate list of [unintentionally onanistic tweets](http://gawker.com/the-worst-tweets-of-2015-1747938447), as a few did last week, it must be because Gawker Media doesn’t like women who like themselves. ([View Highlight](https://read.readwise.io/read/01jp16amr6t9v1h94e88z1meyt))
