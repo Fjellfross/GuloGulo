@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     locale: "en-US",
     baseUrl: "gulogulo.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian", "Readwise"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Readwise", "Clippings"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
